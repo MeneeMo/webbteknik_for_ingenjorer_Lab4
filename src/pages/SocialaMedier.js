@@ -20,7 +20,8 @@ class SocialaMedier extends React.Component {
                         <audio controls>
                             <source src="summer-breeze-meditation-8606.mp3" type="audio/mpeg" />
                         Your browser does not support the audio element.
-                        </audio><br /><br /><br />
+                        </audio><br />
+                        <LikeButton /><br /><br />
                         <iframe 
                             width="560" 
                             height="315" 
