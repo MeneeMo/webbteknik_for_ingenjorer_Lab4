@@ -1,3 +1,7 @@
+// 2025-03-18
+// Author: Marlene Svensson
+// Transfor HTML page to React
+
 import Home from "./pages/Home";
 import Kontakt from "./pages/Kontakt";
 import Kopvillkor from "./pages/Kopvillkor";

@@ -1,7 +1,6 @@
 import React from "react";
 import LikeButton from '../components/LikeButton';
 
-
 class Home extends React.Component {
     render() {
         return (
