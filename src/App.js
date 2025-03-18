@@ -1,6 +1,7 @@
 // 2025-03-18
 // Author: Marlene Svensson
 // Transfor HTML page to React
+// Test github
 
 import Home from "./pages/Home";
 import Kontakt from "./pages/Kontakt";
