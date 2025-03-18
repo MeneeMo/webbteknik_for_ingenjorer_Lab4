@@ -168,8 +168,8 @@ class Nav extends React.Component {
                         </div> 
 
                         <div className="dropdown dropdown-container" id="dropdown-vaxter" ref={this.dropdownRefs.vaxter}>
-                            <button class="dropbtn" onMouseOver = {this.mOver} onMouseOut = {this.mOut} onClick={() => this.toggleDropdown("vaxterOpen")}  /*dropdown*/ >VÄXTER
-                                <i class="fa fa-caret-down"></i>
+                            <button className="dropbtn" onMouseOver = {this.mOver} onMouseOut = {this.mOut} onClick={() => this.toggleDropdown("vaxterOpen")}  /*dropdown*/ >VÄXTER
+                                <i className="fa fa-caret-down"></i>
                             </button>
                             <div className="dropdown-content" style={{ display: this.state.vaxterOpen ? "block" : "none" }} /*dropdown*/ >
                                 <ul>
@@ -180,7 +180,7 @@ class Nav extends React.Component {
                             </div> 
                         </div>
 
-                    <a href="javascript:void(0);" class="icon" onClick={this.myFunction}>
+                    <a href="javascript:void(0);" className="icon" onClick={this.myFunction}>
                         <i className="fa fa-bars"></i>
                     </a>
                 </div> 

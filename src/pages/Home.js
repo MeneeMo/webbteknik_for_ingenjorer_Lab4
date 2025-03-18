@@ -5,7 +5,7 @@ import LikeButton from '../components/LikeButton';
 class Home extends React.Component {
     render() {
         return (
-            <div class="grid-container">
+            <div className="grid-container">
                 <main className="main">
                     <div className="main_info">
                         <LikeButton />
